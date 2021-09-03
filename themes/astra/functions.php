@@ -27,6 +27,7 @@ define( 'ASTRA_THEME_URI', trailingslashit( esc_url( get_template_directory_uri(
  */
 define( 'ASTRA_EXT_MIN_VER', '3.5.5' );
 
+
 /**
  * Setup helper functions of Astra.
  */
@@ -172,3 +173,4 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+add_theme_support( 'block-templates' );
